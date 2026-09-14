@@ -1,21 +1,25 @@
+// Andrew
+// CIS 5 - Week 3 Lab - A typed about-me
+
 #include <iostream>
 #include <string>
-
-// Lab 3 — Your Name
-// CIS 5 Week 03 · Types & variables
+using namespace std;
 
 int main() {
-  const int CURRENT_YEAR = 2026;
+    string name = "Andrew";
+    int age = 17;
+    double height_m = 1.75;
+    char initial = 'A';
+    bool student = true;
+    const int CURRENT_YEAR = 2026;
 
-  // TODO: declare and initialize on the same line
-  // std::string name = ...;
-  // int age = ...;
-  // double height_m = ...;
-  // char initial = ...;
-  // bool student = ...;
+    cout << "=== About me ===" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Height (m): " << height_m << endl;
+    cout << "Initial: " << initial << endl;
+    cout << "Student: " << student << endl;
+    cout << "Year: " << CURRENT_YEAR << endl;
 
-  std::cout << "=== About me ===\n";
-  // TODO: labeled prints from the variable names + CURRENT_YEAR
-
-  return 0;
+    return 0;
 }
